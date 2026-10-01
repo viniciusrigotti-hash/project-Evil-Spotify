@@ -15,10 +15,13 @@ header {
     width: 100vw;
     height: 12.5vh;
     padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #headerDiv {
-    height: 80%;
+    height: 100%;
     width: 99%;
     background-color: #000;
     border-radius: 30px;
@@ -27,7 +30,6 @@ header {
     align-items: center;
     padding: 0 2.5%;
 }
-
 
 /* Logo */
 #logo {
@@ -82,4 +84,28 @@ header {
 
     color: white;
     font-size: 16px;
+}
+
+/* Main */
+Main {
+    width: 100vw;
+    height: 87.5vh;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv {
+    height: 98%;
+    width: 99%;
+    background-color: #000;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
