@@ -51,7 +51,7 @@ header {
     color: white;
     font-size: 25px;
     text-decoration: none;
-    transition: 0.3s
+    transition: 0.3s ease;
 }
 
 #homeBtn:hover {
@@ -64,10 +64,8 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
-
     background-color: #151515;
     border-radius: 20px;
-
     padding: 8px 15px;
 }
 
@@ -77,13 +75,17 @@ header {
 
 #search {
     width: 180px;
-
     background: none;
     border: none;
     outline: none;
-
     color: white;
     font-size: 16px;
+    transition: 0.3s ease;
+}
+
+#search:focus {
+    outline: none;
+    transform: scale(1.1);
 }
 
 /* Main */
