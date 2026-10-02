@@ -1,113 +1,109 @@
 /* Geral */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Special Elite", system-ui;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Special Elite", system-ui;
+    }
 
-body {
-    background-color: #0f0f0f;
-}
+    body {
+        background-color: #0f0f0f;
+    }
 
 /* Header */
-header {
-    width: 100vw;
-    height: 12.5vh;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    header {
+        width: 100vw;
+        height: 12.5vh;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-#headerDiv {
-    height: 100%;
-    width: 99%;
-    background-color: #000;
-    border-radius: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2.5%;
-}
+    #headerDiv {
+        height: 100%;
+        width: 99%;
+        background-color: #000;
+        border-radius: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2.5%;
+        }
 
-/* Logo */
-#logo {
-    height: 85%;
-    width: auto;
-}
+    /* Logo */
+        #logo {
+            height: 85%;
+            width: auto;
+        }
 
-/* Navegação */
-#nav {
-    display: flex;
-    align-items: center;
-}
+    /* Navegação */
+        #nav {
+            display: flex;
+            align-items: center;
+        }
 
-#homeBtn {
-    padding: 25%;
-    background-color: #0f0f0f;
-    border: none;
-    border-radius: 100%;
-    color: white;
-    font-size: 25px;
-    text-decoration: none;
-    transition: 0.3s ease;
-}
+        #loginBtn {
+            padding: 25%;
+            background-color: #0f0f0f;
+            border: none;
+            border-radius: 100%;
+            color: white;
+            font-size: 25px;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
 
-#homeBtn:hover {
-    background-color: #ff0000;
-    transform: scale(1.1);
-}
+        #loginBtn:hover {
+            background-color: #ff0000;
+            transform: scale(1.1);
+        }
 
-/* Busca */
-#searchDiv {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    background-color: #151515;
-    border-radius: 20px;
-    padding: 8px 15px;
-}
+    /* Busca */
+        #searchDiv {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #151515;
+            border-radius: 20px;
+            padding: 8px 15px;
+        }
 
-#searchDiv i {
-    color: white;
-}
+        #searchDiv i {
+            color: white;
+        }
 
-#search {
-    width: 180px;
-    background: none;
-    border: none;
-    outline: none;
-    color: white;
-    font-size: 16px;
-    transition: 0.3s ease;
-}
+        #search {
+            width: clamp(150px, 15vw, 300px);
+            background: none;
+            border: none;
+            outline: none;
+            color: white;
+            font-size: 16px;
+            transition: 0.3s ease;
+        }
 
-#search:focus {
-    outline: none;
-    transform: scale(1.1);
-}
+        #search:focus {
+            outline: none;
+        }
 
 /* Main */
-Main {
-    width: 100vw;
-    height: 87.5vh;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    main {
+        width: 100vw;
+        height: 87.5vh;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-#mainDiv {
-    height: 98%;
-    width: 99%;
-    background-color: #000;
-    border-radius: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2.5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    #mainDiv {
+        height: 98%;
+        width: 99%;
+        background-color: #000;
+        border-radius: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2.5%;
+    }

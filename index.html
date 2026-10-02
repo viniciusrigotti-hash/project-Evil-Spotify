@@ -1,4 +1,4 @@
-<!-- HTML -->
+<!-- Home -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <!-- Head -->
@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Links -->
         <!-- JS -->
-    <script type="module" src="./main.js" defer></script>
+    <script type="module" src="./js/main.js" defer></script>
         <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
         <!-- Fonte -->
@@ -15,29 +15,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
         <!-- Icon -->
-    <link rel="icon" href="./img/Evil Spotify Icon.png">
+    <link rel="icon" href="./images/Evil Spotify Icon.png">
         <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/c95e6303ed.js" crossorigin="anonymous"></script>
     <!-- Título -->
-    <title>Evil Spotify</title>
+    <title>Home - Evil Spotify</title>
 </head>
 <!-- Body -->
 <body>
     <!-- Header -->
-<header>
-    <div id="headerDiv">
-        <img src="./img/Evil Spotify Logo.png" id="logo">
-        <div id="searchDiv">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" id="search" placeholder="Digitar...">
+    <header>
+        <div id="headerDiv">
+            <!-- Logo -->
+            <img src="./images/Evil Spotify Logo.png" id="logo">
+            <!-- Search -->
+            <div id="searchDiv">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="search" placeholder="Pesquisar...">
+            </div>
+            <!-- Login -->
+            <nav id="nav">
+                <a href="login.html" id="loginBtn">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </nav>
         </div>
-        <nav id="nav">
-            <a href="index.html" id="homeBtn">
-                <i class="fa-solid fa-house-chimney-crack"></i>
-            </a>
-        </nav>
-    </div>
-</header>
+    </header>
+
     <!-- Main -->
     <main>
         <div id="mainDiv">
