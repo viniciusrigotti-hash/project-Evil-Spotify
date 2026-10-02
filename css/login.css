@@ -1,0 +1,32 @@
+/* Geral */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Special Elite", system-ui;
+    }
+
+    body {
+        background-color: #0f0f0f;
+    }
+
+/* Main */
+    main {
+        width: 100vw;
+        height: 100vh;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mainDiv {
+        height: 90%;
+        width: 35%;
+        background-color: #000;
+        border-radius: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2.5%;
+    }
