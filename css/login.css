@@ -38,16 +38,54 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 10px;
+        align-items: center;
+        gap: 1rem;
     }
-    
+
     .loginEntry {
-    size: 100%;
-    display: flex;   
-    flex-direction: column;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
     }
 
     .loginInput {
-        width: 70%;
-        ;
+        width: 100%;
+        height: clamp(2.5rem, 5vh, 3.5rem);
+        padding: 0 1rem;
+        border: none;
+        border-radius: 10px;
+        background-color: #151515;
+        color: #fff;
+        font-size: clamp(0.9rem, 1.2vw, 1.1rem);
+    }
+
+    .loginInput:focus {
+        outline: none;
+    }
+
+    #submit {
+        width: 80%;
+        height: clamp(2.5rem, 5vh, 3.5rem);
+        padding: 0 1rem;
+        border: none;
+        border-radius: 10px;
+        background-color: #151515;
+        color: #fff;
+        font-size: clamp(1rem, 1.3vw, 1.2rem);
+        transition: 0.3s ease;
+    }
+
+    #submit:hover {
+        cursor: pointer;
+        background-color: #ff0000;
+        transform: scale(1.1);
+    }
+
+    #sigInLink {
+        transition: 0.125s ease;
+    }
+
+    #sigInLink:hover {
+        color: #ff0000;
     }
