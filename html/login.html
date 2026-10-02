@@ -26,6 +26,7 @@
     <!-- Main -->
     <main>
         <div id="mainDiv">
+            <img src="/images/Evil Spotify Icon.png" alt="Logo">
             <h1>Entre com sua conta.</h1>
             <form id="loginForm">
                 <div class="loginEntry">
@@ -35,7 +36,12 @@
 
             <div class="loginEntry">
                 <label for="password">Senha</label>
-                <input type="password" id="password" name="password" class="loginInput" placeholder="Digite sua senha" required>
+                <div class="passwordDiv">
+                    <input type="password" id="password" class="loginInput" name="password">
+                    <button type="button" class="showPassword" onclick="mostrarSenha('password', this)">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+                </div>
             </div>
                         
                 <div class="loginEntry">

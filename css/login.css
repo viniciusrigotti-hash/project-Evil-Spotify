@@ -29,6 +29,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 50px;
+        padding-top: 2aw"%;
+    }
+
+    img {
+        height: clamp(20px, 25%, 40%);
     }
 
     /* Log In Form */
