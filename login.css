@@ -1,0 +1,119 @@
+/* Geral */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Special Elite", system-ui;
+        color: #fff;
+    }
+
+    body {
+        background-color: #0f0f0f;
+    }
+
+/* Main */
+    main {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mainDiv {
+        height: 90%;
+        width: 35%;
+        background-color: #000;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding-top: 2%;
+    }
+
+    img {
+        height: clamp(20px, 25%, 40%);
+    }
+
+    /* Log In Form */
+    #logInForm {
+        width: 70%;
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .logInEntry {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .logInInput {
+        width: 100%;
+        height: clamp(2.5rem, 5vh, 3.5rem);
+        padding: 0 1rem;
+        border: none;
+        border-radius: 10px;
+        background-color: #151515;
+        color: #fff;
+        font-size: clamp(0.9rem, 1.2vw, 1.1rem);
+    }
+
+    .logInaInput:focus {
+        outline: none;
+    }
+
+    #submit {
+        width: 80%;
+        height: clamp(2.5rem, 5vh, 3.5rem);
+        padding: 0 1rem;
+        border: none;
+        border-radius: 10px;
+        background-color: #151515;
+        color: #fff;
+        font-size: clamp(1rem, 1.3vw, 1.2rem);
+        transition: 0.3s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    #submit:hover {
+        cursor: pointer;
+        background-color: #ff0000;
+        transform: scale(1.1);
+    }
+
+
+    /* Link para criar conta */
+    #sigInLink {
+        transition: 0.125s ease;
+    }
+
+    #sigInLink:hover {
+        color: #ff0000;
+    }
+
+    .passwordDiv {
+    width: 100%;
+    position: relative;
+    }
+
+    .passwordDiv .logInInput {
+        padding-right: 3rem;
+    }
+
+    #signInDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
