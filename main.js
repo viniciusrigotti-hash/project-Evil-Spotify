@@ -18,6 +18,9 @@ onValue(musicasRef, (snapshot) => {
     const musicas = snapshot.val();
 
     for (const id in musicas) {
+
+        musicList.innerHTML = "";
+
         const musica = musicas[id];
         
         const musicElement = document.createElement("div");
