@@ -3,9 +3,7 @@ import { db } from "./firebase.js";
 import { ref, onValue } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-database.js";
 
 // Elementos da página
-const search = document.getElementById("search");
 const musicList = document.getElementById("musicList");
-const musicPlayer = document.getElementById("musicPlayer");
 const playerCover = document.getElementById("playerCover");
 const playerTitle = document.getElementById("playerTitle");
 const playerArtist = document.getElementById("playerArtist");
